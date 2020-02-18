@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-    padding:0px;
-    margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.wallpapermaiden.com/image/2017/05/31/anime-girl-falling-stars-scenic-birds-sky-landscape-anime-16111.jpg") center center;
-    background-size:cover;
-    width:100vw;
-    height:100vh;
-    overflow:hidden;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("anime-girl-falling-stars-scenic-birds-sky-landscape-anime-16111.jpg") center center;
+    /*background-image: url("anime-girl-falling-stars-scenic-birds-sky-landscape-anime-16111.jpg");*/ 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
 #loading {
