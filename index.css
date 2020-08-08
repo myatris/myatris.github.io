@@ -11,6 +11,41 @@ body {
     overflow: hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+
 #loading {
     width: 100vw;
     height: 100vh;
@@ -186,10 +221,16 @@ body {
     transition:0.4s ease-in-out;
 }
 .container div:hover {
-    cursor:pointer;
+    cursor:default;
 }
 .container section {
     margin:8vh 0px;
+}
+#itens div{
+    font-size:16px;
+    display:inline-block;
+    padding:8px 10px;
+    margin:0px 10px;
 }
 #used div{
     font-size:14px !important;
@@ -359,4 +400,5 @@ body {
     #box div {
         width:100%;
     }
+	
 }
