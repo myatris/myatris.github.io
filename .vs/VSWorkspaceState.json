@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\css",
+    "\\assets\\img",
+    "\\assets\\img\\portfolio",
+    "\\assets\\js",
+    "\\assets\\vendor",
+    "\\assets\\vendor\\php-email-form",
+    "\\forms"
   ],
+  "SelectedNode": "\\assets\\js\\main.js",
   "PreviewInSolutionExplorer": false
 }
